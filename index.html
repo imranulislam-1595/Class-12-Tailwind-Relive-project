@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Tailwind css</title>
+  </head>
+  <body>
+    <header
+      class="bg-blue-600 md:flex justify-between items-center text-white px-5"
+    >
+      <div class="text-center">
+        <img src="./images/logo.svg" alt="">
+      </div>
+
+      <nav>
+        <ul class="flex justify-center md:justify-between">
+          <li class="p-2 font-bold"><a href="#">About</a></li>
+          <li class="p-2 font-bold"><a href="#">Home</a></li>
+          <li class="p-2 font-bold"><a href="#">Protfolio</a></li>
+          <li class="p-2 font-bold"><a href="#">Service</a></li>
+          <li class="p-2 font-bold"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- banner/ hero section -->
+
+    <section class="min-h-[90vh] p-4 md:p-30 bg-[url(/images/banner.png)] bg-top bg-cover bg-no- repeat"
+    >
+      <div class="md:w-2/3 text-white">
+        <h2 class="md:p-10 text-4xl md:text-[80px] font-semibold">
+          Rediscover youth, <span class="text-[#00C3B9]">Radefine Life.</span>
+        </h2>
+        <p class="mt-5 md:-0">
+          Embrace a renewed sense of vitality and confidence with advanced
+          anti-aging therapies. At Relive,we help you unlock the best version of
+          yourself inside and out.
+        </p>
+        <button>See more</button>
+      </div>
+    </section>
+    <!-- our product -->
+
+    <section>
+      <div class="p-10 px-4 md:px-20">
+        <h1 class="text-center text-4xl font-bold">
+          Our <span class="text-[#00C3B9]">product</span>
+        </h1>
+        <p class="text-center">
+          optimize your result with expertly cuated peptide combinations designd
+          to enhance effectivenece and deliver maximum benefits.
+        </p>
+      </div>
+    </section>
+
+    <!-- pruduct images -->
+
+    <section class="my-5 md:my-8 lg:my-10 xl:my-18 2xl:my-20 mx-5">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="border-1 p-2 rounded-lg">
+          <img
+            class="w-100 h-70 rounded-lg"
+            src="./images/beauty product.jpg"
+            alt=""
+          />
+          <p>Female Health and emergency</p>
+          <p>$14.00</p>
+          <button
+            class="bg-[#00C3B9] px-5 py-1 rounded-full my-1 text-white hover:bg-blue-600 w-full"
+          >
+            Add To Cart
+          </button>
+        </div>
+
+        <div class="border-1 p-2 rounded-lg">
+          <img class="w-100 h-70 rounded-lg" src="./images/show.png" alt="" />
+          <p>Perfume</p>
+          <p>$20.00</p>
+          <button
+            class="bg-[#00C3B9] px-5 py-1 rounded-full my-6 text-white hover:bg-blue-600 w-full"
+          >
+            Add To Cart
+          </button>
+        </div>
+
+        <div class="border-1 p-2 rounded-lg">
+          <img
+            class="w-100 h-70 rounded-lg"
+            src="./images/camara.jpeg"
+            alt=""
+          />
+          <p>Camara for photograpy</p>
+          <p>$17.00</p>
+          <button
+            class="bg-[#00C3B9] px-5 py-1 rounded-full my-6 text-white hover:bg-blue-600 w-full"
+          >
+            Add To Cart
+          </button>
+        </div>
+
+        <div class="border-1 p-2 rounded-lg">
+          <img
+            class="w-100 h-70 rounded-lg"
+            class="w-full h-40 rounded-lg"
+            src="./images/lense.jpeg"
+            alt=""
+          />
+          <p>camara lense</p>
+          <p>$12.00</p>
+          <button
+            class="bg-[#00C3B9] px-5 py-1 rounded-full my-6 text-white hover:bg-blue-600 w-full"
+          >
+            Add To Cart
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our specialized Treatment -->
+
+    <section>
+      <div class="p-10 px-4 md:px-10">
+        <h1 class="text-center text-4xl font-bold">
+          Our specialized <span class="text-[#00C3B9]">Treatment</span>
+        </h1>
+        <p class="text-center">
+          Explore our wide range of innovative anti-aging solutions.
+        </p>
+      </div>
+    </section>
+    <!-- services -->
+    <section class="my-5 md:my-8 lg:my-10 xl:my-18 2xl:my-20 mx-5">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="shadow p-2 rounded-lg">
+          <img class="rounded-lg" src="./images/icons/pot.png" alt="" />
+          <p class="font-bold">Peptied Therapy</p>
+          <p>Boost cellular regeneration and vitality</p>
+          <button class="text-[#00C3B9] font-bold underline">Learn More</button>
+        </div>
+        <div class="shadow p-2 rounded-lg">
+          <img class="rounded-lg" src="./images/icons/harts.png" alt="" />
+          <p class="font-bold">Peptied Therapy</p>
+          <p>Boost cellular regeneration and vitality</p>
+          <button class="text-[#00C3B9] font-bold underline flex">Learn More </button>
+        </div>
+        <div class="shadow p-2 rounded-lg">
+          <img class="rounded-lg" src="./images/icons/sun.png" alt="" />
+          <p class="font-bold">Peptied Therapy</p>
+          <p>Boost cellular regeneration and vitality</p>
+          <button class="text-[#00C3B9] font-bold underline">Learn More</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
